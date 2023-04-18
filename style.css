@@ -1,0 +1,261 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*kutu çizgisi de yer kaplamasın*/
+}
+html
+{
+    font-size: 10px;
+}
+
+/*HEADER START*/
+.header_container
+{
+    height: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.2rem;
+    
+}
+.header1
+{
+    width: 20%;
+    height: 60px;
+    background-color: #577D86;
+    display: flex;
+    float: left;
+}
+.header2
+{
+    width: 80%;
+    height: 60px;
+    background: #A5C9CA;
+    display: flex;
+    float: left;
+}
+/*NAVBAR START*/
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+ul
+{
+    list-style-type:none;
+}
+.nav_container
+{
+display: flex;
+justify-content: flex-start;
+font-size: 2rem;
+background-color: rgb(181, 217, 217);
+margin-left: 2rem;
+margin-right: 2rem;
+margin-bottom: 2rem;
+}
+#nav_links .nav_item
+{
+    float: left;
+    margin: 2rem;
+    
+}
+#nav_links .nav_link
+{
+    display: block;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+    transition:all color 0.4s;
+}
+#nav_links .nav_link:hover
+{
+    color: blue;
+}
+
+/*ARTİCLE START*/
+
+.article_container
+{
+    display: grid;
+    flex-wrap: wrap;
+    background-color: rgb(141, 184, 191);
+    margin-top: 0.1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.article_title
+{
+    justify-content: center;
+    display: grid;
+    padding-bottom: 4rem;
+    color: #fff; 
+}
+.col
+{
+
+    float: left;
+    width: 13.333%;
+    padding: 5px;
+    padding-left: 6rem;
+    padding-right: 2rem;
+}
+.card
+{
+    height: 250px;
+    background-color: aquamarine;
+    
+}
+.col1
+{
+    float: left;
+    width: 13.333%;
+    padding: 5px;
+    padding-left: 6rem;
+    padding-right: 2rem;
+}
+/*ABOUT START*/
+
+.about_container
+{
+    width: 97%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(139, 180, 166);
+    padding-top: 3rem;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;  
+}
+.about_title
+{
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+
+.about_p
+{
+    font-size: 2rem;
+}
+
+p
+{
+    font-size: 1.6rem;
+    padding-top: 1.6rem;
+}
+
+/*SERVİCES START*/
+
+.services_container
+{
+    display: grid;
+    flex-wrap: wrap;
+    background-color: rgb(141, 184, 191);
+    text-align: center;
+    padding-right: 7rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-left: 4rem;
+}
+
+/*CONTACT START*/
+
+.contact_container
+{
+    background-color: rgb(170, 170, 120);
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left:3rem ;
+}
+
+.contact_title
+{
+    justify-content: center;
+    display: grid;
+    padding-bottom: 1.5rem;
+    color: #fff;
+}
+.input
+{
+    margin-top: 0.3rem;
+    height: 3rem;
+    width: 30%;
+    border: none;
+    border-radius: 3px;
+}
+.input1
+{
+    padding-top: 0;
+    margin-top: 0.3rem;
+    height: 9rem;
+    width: 30%;
+    border: none;
+    border-radius: 3px;
+    text-align: start;
+}
+
+/*FOOTER START*/
+footer
+{
+    background-color: rgb(89, 70, 47);
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 2em;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    height: 5rem;
+}
+
+
+@media (min-width:300px)
+{
+   .col
+   {
+    width: 100%;
+   }
+   .col1
+   {
+    width: 50%;
+   }
+}
+
+@media (min-width: 768px)
+{
+    .col
+    {
+        width: 50% ;
+    }
+    .col1
+    {
+        width: 50% ;
+    }
+}
+@media (min-width: 992px)
+{
+    .col
+    {
+        width: 33.333%;
+    }
+}
+@media (min-width: 1200px)
+{
+     .col
+    {
+        width: 33.333%;
+    }
+    .col1
+    {
+        width: 25%;
+    }
+}
+
