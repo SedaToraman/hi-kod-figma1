@@ -1,4 +1,5 @@
 # hi-kod-Responsive tasarıma duyarlı figma1-projesi
+Bu proje Kodluyoruz|Hi-Kod Atölyesi#8 Kapsamında yaptığım ilk Responsive tasarıma duyarlı site.
 
 ![Ekran Resmi 2023-04-18 18 11 12](https://user-images.githubusercontent.com/95501927/232823252-04310780-1fc8-4673-bb70-e96a1f98168a.png)
 
